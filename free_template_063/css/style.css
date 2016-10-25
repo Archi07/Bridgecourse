@@ -1,0 +1,437 @@
+/*====================================== reset.css is here ========================================*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+	margin: 0 0 0 0px;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset, img {
+	border: 0;
+}
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+ol, ul {
+	list-style: none;
+}
+caption, th {
+	text-align: left;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: bold;
+}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+}
+.clear {
+	clear: both;
+	font-size: 0px;
+	line-height: 0px;
+	display: block;
+}
+.last {
+	margin: 0 !important;
+}
+.pad_last {
+	padding: 0 !important;
+}
+.no_bg {
+	background: none !important;
+}
+/**************************************************************************************/
+a {
+	color: #000;
+	text-decoration: none;
+	outline: 0 none;
+}
+a:hover {
+	color: #000;
+	text-decoration: none;
+}
+h1 {
+	font-size: 24px;
+}
+h2 {
+	font-size: 22px;
+}
+h3 {
+	font-size: 18px;
+}
+h4 {
+	font-size: 16px;
+}
+h5 {
+	font-size: 14px;
+}
+h6 {
+	font-size: 12px;
+}
+/*----------------------------------------------------------------------------------*/
+html {
+}
+body {
+	font-family: "Arial", Verdana, Tahoma;
+	font-size: 12px;
+	background-color: #eaeaea;
+}
+.flt_Lt {
+	float: left;
+	display: inline;
+}
+.flt_Rt {
+	float: right;
+	display: inline;
+}
+/* ---------------------------------------------------------------------------------*/
+
+
+/* ----------------------- layout ----------*/
+.wrapper {
+	margin: 0 auto;
+	background: url(../images/bg1.png) repeat-x left 27%;
+	min-width: 980px;
+}
+.container {
+	width: 980px;
+	margin: 0 auto;
+	border-top: 0 none;
+	background-color: #ffffff;
+}
+.main_content {
+}
+/*-------------------------------------------*/
+
+/* ------------------ HEADER HERE -------------------*/
+.header {
+	margin: 0 auto;
+	padding: 0;
+	width: 980px;
+	display: inline-block;
+}
+.logo {
+	margin-top: 30px;
+	margin-right: 0;
+	margin-left: 35px;
+	margin-bottom: 0;
+	padding: 0;
+	width: 120px;
+	float: left;
+}
+.logo h1 {
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	color: #333333;
+	font-weight: normal;
+}
+.logo h1 a {
+	display: block;
+	margin: 0;
+	padding: 0;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 35px;
+	color: #333333;
+	font-weight: normal;
+}
+/* ---------------------------------------------------------*/
+
+
+
+/* ------------------------- NAVIGATION HERE ---------------*/
+.header_nav {
+	float: right;
+	padding: 0;
+	width: 570px;
+	margin: 50px 0 30px 0px;
+	display: inline-block;
+}
+.header_nav ul {
+	float: left;
+	display: inline-block;
+	margin: 0;
+	padding: 0 0 0 0;
+}
+.header_nav ul li {
+	float: left;
+	display: inline-block;
+	margin: 0 43px 0 0;
+}
+.header_nav ul li a {
+	display: inline-block;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	color: #333333;
+	font-weight: normal;
+	padding: 0;
+	margin: 0;
+}
+.header_nav ul li a:hover {
+	text-decoration: underline;
+}
+.banner {
+	margin: 0px;
+	padding: 0px;
+	background: url(../images/banner_bg.jpg) no-repeat top center;
+}
+.banner img {
+	margin: 0;
+	padding: 0;
+}
+.banner1 {
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+.Business {
+	margin: 0 0 0px 0;
+	padding: 0;
+	float: right;
+	width: 510px;
+}
+.Business h2 {
+	margin: 30px 0 0 0;
+	padding: 0;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #000000;
+}
+.Business p {
+	width: 444px;
+	margin: 0;
+	padding: 27px 0 30px 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	line-height: 20px;
+	text-align: justify;
+}
+.Business a {
+	margin: 0;
+	padding: 5px 13px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-align: center;
+	background-color: #ffffff;
+	border-radius: 6px;
+}
+.Business a:hover {
+	text-decoration: underline;
+}
+.line {
+	display: block;
+	margin: 0 auto;
+	padding: 0;
+	width: 970px;
+	background-color: #000;
+	height: 5px;
+}
+/* ---------------------------------------------------------*/
+
+/* ------------------------ MIAN CONTENT HERE --------------*/
+.main_content {
+	margin: 0;
+	padding: 0;
+	width: 980px;
+	background-color: #ffffff;
+}
+.left_cont {
+	margin: 0 0 0 30px;
+	padding: 0;
+	float: left;
+	width: 470px;
+}
+.content1 {
+	margin: 0;
+	padding: 0;
+	float: left;
+	width: 473px;
+}
+.content1 h2 {
+	margin: 30px 0 0 0;
+	padding: 0;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #333333;
+}
+.content1 p {
+	margin: 25px 0 0 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #333333;
+	line-height: 20px;
+}
+.right_cont {
+	margin: 0 0 0 0;
+	padding: 0;
+	float: right;
+	width: 480px;
+}
+.right_cont h2 {
+	margin: 30px 0 0 0;
+	padding: 0;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #333333;
+}
+.services {
+	width: 425px;
+	margin: 30px 0 30px 0;
+	padding: 0;
+}
+.services img {
+	padding: 0 0px 0 0;
+	float: left;
+	margin: 3px 0 0 0;
+}
+.services h2 {
+	color: #0099cc;
+	font-size: 14px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin: 0 0 0 12px;
+	font-weight: bold;
+	line-height: 20px;
+	padding: 0 0 0 30px;
+}
+.services h2 a {
+	color: #0099cc;
+}
+.services h2 a:hover {
+	color: #0099cc;
+	text-decoration: underline;
+}
+.services p {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0;
+	text-align: justify;
+	margin: 0 0 0 42px;
+	padding: 0;
+	line-height: 20px;
+	color: #666666;
+}
+.content {
+	margin: 0;
+	padding: 0;
+	width: 970px;
+	background-color: #333333;
+	border: 5px solid #ffffff;
+}
+.choose {
+	margin: 0;
+	padding: 0;
+	width: 460px;
+	float: left;
+	border-right: 4px solid #414141;
+}
+.choose h2 {
+	margin: 30px 0 0 25px;
+	padding: 0;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	color: #ffffff;
+}
+.choose p {
+	margin: 30px 0 30px 25px;
+	padding: 0 40px 0 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	color: #cccccc;
+	line-height: 20px;
+}
+.news {
+	float: left;
+	margin: 0;
+	padding: 30px 0 0 35px;
+	width: 420px;
+}
+.news h3 {
+	color: #eeeeee;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 20px;
+	font-weight: normal;
+	margin: 0 0 15px;
+	padding: 0;
+}
+.news h6 {
+	background: url("../images/arrow.png") no-repeat left center;
+	color: #0099cc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	margin: 0;
+	padding: 0 0 0 15px;
+	display: block;
+}
+.news p {
+	color: #cccccc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	font-weight: normal;
+	line-height: 20px;
+	padding: 10px 0 0 0;
+}
+.para_last {
+	margin: 0 0 27px 0;
+}
+/* ---------------------------------------------------------*/
+
+
+/* ------------------ FOOTER HERE --------------------------*/
+.footer {
+	margin: 0 auto;
+	padding: 0;
+	width: 980px;
+}
+.copy {
+	float: left;
+	margin: 35px 0 35px 40px;
+	padding: 0;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+}
+.copy a {
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	font-weight: normal;
+	text-decoration: underline;
+}
+.copy a:hover {
+	text-decoration: none;
+}
+.social_icons {
+	margin: 30px 40px 0 0;
+	padding: 0;
+	float: right;
+}
+.social_icons a {
+	padding: 0;
+	margin: 0 10px 0 0;
+	display: inline-block;
+	float: left;
+}
+/* ---------------------------------------------------------*/

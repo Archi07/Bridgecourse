@@ -1,0 +1,53 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="free_template_063_MasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Untitled Page</title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="wrapper"> 
+    <div class="container"> 
+    <div class="header">
+      <div class="logo">
+        <h1><a href="#">GTU</a></h1>
+      </div>
+      <div class="header_nav">
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#"> About </a></li>
+          <li><a href="#">Courses</a></li>
+          <li><a href="#"> Study Material</a></li>
+          
+          <li class="last"><a href="#"> Contact us</a></li>
+        </ul>
+        <div class="clear"></div>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="line"></div>
+    
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+   
+    <div class="footer">
+    <div class="copy"> Copyright © 2014 *****. All rights reserved. Photos by <a href="#" target="_blank" rel="nofollow">*****</a>. Design by <a href="http://www.freecsstemplates.com" target="_blank" rel="nofollow">*****</a></div>
+    <div class="social_icons"> <a href="#"><img src="images/fb_icon.png" width="24" height="24" alt="img" /> </a> <a href="#"> <img src="images/twiter_icon.png" width="24" height="24" alt="img" /></a> <a href="#"><img src="images/google_icon.png" width="24" height="24" alt="google-icon" /></a>
+      <div class="clear"></div>
+    </div>
+    <div class="clear"></div>
+  </div>
+</div>
+</div>
+
+  </form>
+</body>
+</html>

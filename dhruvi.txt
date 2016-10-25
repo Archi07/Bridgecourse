@@ -1,0 +1,23 @@
+    public void calldata(String tbl)
+    {
+        if (cn.State == ConnectionState.Closed)
+            cn.Open();
+        SqlCommand cmd = new SqlCommand(tbl, cn);
+        cmd.ExecuteNonQuery();
+        cmd.Dispose();
+        cn.Close();
+    }
+
+call
+{
+ c.calldata("insert into registration values(" + TextBoxuserid.Text + " , '" + TextBoxpname.Text +
+                        "' , '" + TextBoxemail.Text + "'  , '" + TextBox2.Text + "' , '" + Label17.Text + "' , '" + TextBox4.Text +
+                        "' , " + Label19.Text + " , '" + TextBoxcno.Text + "' , " + Label18.Text + " , '" + Label16.Text + "' , " + Label20.Text +
+                        " , " + Label21.Text + " , " + Label22.Text + " , " + Label23.Text + " ) "); 
+}
+
+call
+{
+  update table tablename set field='value' where field='val';
+}
+
